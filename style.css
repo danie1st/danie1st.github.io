@@ -18,13 +18,23 @@ body {
 	padding: 3em 0 5em;
 }
 
-button {
+/* ================
+   === #GENERAL ===
+   ================ */
+.btn {
 	font: unset; /* size: inherit, family: initial ... */
 	padding: .5em 1em;
 	background: #fff0;
+	border: 2px solid;
 	border-radius: var(--radius);
+	cursor: pointer;
 }
 
+a.btn { text-decoration: none; }
+
+/* ==============
+   === #MEDIA ===
+   ============== */
 @media (min-width: 560px) {
 	body { font-size: 1.6rem; }
 }
