@@ -1,6 +1,14 @@
 @import 'stylesheets/reset.css';
 @import 'stylesheets/helper.css';
 
+:root {
+	--radius: 5px;
+}
+
+body {
+	font: auto Roboto;
+}
+
 .body__main {
 	width: 80%;
 	margin: 0 auto;
@@ -8,4 +16,11 @@
 
 .hero {
 	padding: 3em 3em 5em;
+}
+
+button {
+	font: unset; /* size: inherit, family: initial ... */
+	padding: .5em 1em;
+	background: #fff0;
+	border-radius: var(--radius);
 }
