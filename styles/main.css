@@ -1,5 +1,5 @@
-@import 'stylesheets/reset.css';
-@import 'stylesheets/helper.css';
+@import './reset.css';
+@import './helper.css';
 
 :root {
 	--radius: 5px;
