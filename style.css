@@ -1,1 +1,11 @@
 @import 'stylesheets/reset.css';
+@import 'stylesheets/helper.css';
+
+.body__main {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.hero {
+	padding: 3em 3em 5em;
+}
