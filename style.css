@@ -6,7 +6,7 @@
 }
 
 body {
-	font: 1.6rem system-ui;
+	font: 1.4rem system-ui;
 }
 
 .body__main {
@@ -23,4 +23,12 @@ button {
 	padding: .5em 1em;
 	background: #fff0;
 	border-radius: var(--radius);
+}
+
+@media (min-width: 560px) {
+	body { font-size: 1.6rem; }
+}
+
+@media (min-width: 1200px) {
+	body {font-size: 1.8rem; }
 }
