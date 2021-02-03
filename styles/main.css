@@ -32,6 +32,12 @@ body {
 
 a.btn { text-decoration: none; }
 
+/* =================
+   === #SECTIONS ===
+   ================= */
+.section {}
+.section > :first-child { margin-top: 0; }
+
 /* ==============
    === #MEDIA ===
    ============== */
