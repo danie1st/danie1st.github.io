@@ -5,7 +5,8 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "sass --watch styles/scss:styles",
+    "develop": "start npm run compile && start live-server"
   },
   "repository": {
     "type": "git",
