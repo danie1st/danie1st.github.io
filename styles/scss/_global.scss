@@ -1,5 +1,6 @@
 body {
 	font: 1.4rem system-ui;
+	color: map-get($colors, 'text');
 }
 
 .body__main {
