@@ -1,0 +1,35 @@
+body {
+	font: 1.4rem system-ui;
+}
+
+.body__main {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.hero {
+	padding: 3em 0 5em;
+}
+
+
+// =================
+// === #SECTIONS ===
+// =================
+.section {}
+.section > :first-child { margin-top: 0; }
+
+// .section--experiments {
+// 	border: 1px dashed red;
+// }
+
+
+// ==============
+// === #MEDIA ===
+// ==============
+@media (min-width: $breakpoint-md) {
+	body { font-size: 1.6rem; }
+}
+
+@media (min-width: $breakpoint-lg) {
+	body {font-size: 1.8rem; }
+}

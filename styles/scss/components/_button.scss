@@ -1,0 +1,10 @@
+.btn {
+	font: unset; /* size: inherit, family: initial ... */
+	padding: .5em 1em;
+	background: #fff0;
+	border: 2px solid;
+	border-radius: $border-radius;
+	cursor: pointer;
+}
+
+a.btn { text-decoration: none; }

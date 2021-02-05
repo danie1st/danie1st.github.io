@@ -1,50 +1,59 @@
-@import './reset.css';
-@import './helper.css';
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
 
-:root {
-	--radius: 5px;
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
-	font: 1.4rem system-ui;
+  margin: 0;
+}
+
+.outline {
+  outline: 1px solid red;
+}
+
+body {
+  font: 1.4rem system-ui;
 }
 
 .body__main {
-	width: 80%;
-	margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .hero {
-	padding: 3em 0 5em;
+  padding: 3em 0 5em;
 }
 
-/* ================
-   === #GENERAL ===
-   ================ */
-.btn {
-	font: unset; /* size: inherit, family: initial ... */
-	padding: .5em 1em;
-	background: #fff0;
-	border: 2px solid;
-	border-radius: var(--radius);
-	cursor: pointer;
+.section > :first-child {
+  margin-top: 0;
 }
 
-a.btn { text-decoration: none; }
-
-/* =================
-   === #SECTIONS ===
-   ================= */
-.section {}
-.section > :first-child { margin-top: 0; }
-
-/* ==============
-   === #MEDIA ===
-   ============== */
 @media (min-width: 560px) {
-	body { font-size: 1.6rem; }
+  body {
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    font-size: 1.8rem;
+  }
+}
+.btn {
+  font: unset;
+  /* size: inherit, family: initial ... */
+  padding: 0.5em 1em;
+  background: #fff0;
+  border: 2px solid;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-@media (min-width: 1200px) {
-	body {font-size: 1.8rem; }
+a.btn {
+  text-decoration: none;
 }
+
+/*# sourceMappingURL=main.css.map */
