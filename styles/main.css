@@ -15,6 +15,20 @@ body {
   outline: 1px solid red;
 }
 
+.btn {
+  font: unset;
+  /* size: inherit, family: initial ... */
+  padding: 0.5em 1em;
+  background: #fff0;
+  border: 2px solid;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+a.btn {
+  text-decoration: none;
+}
+
 body {
   font: 1.4rem system-ui;
 }
@@ -32,6 +46,10 @@ body {
   margin-top: 0;
 }
 
+.section--experiments {
+  border: 1px dashed red;
+}
+
 @media (min-width: 560px) {
   body {
     font-size: 1.6rem;
@@ -41,19 +59,6 @@ body {
   body {
     font-size: 1.8rem;
   }
-}
-.btn {
-  font: unset;
-  /* size: inherit, family: initial ... */
-  padding: 0.5em 1em;
-  background: #fff0;
-  border: 2px solid;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-a.btn {
-  text-decoration: none;
 }
 
 /*# sourceMappingURL=main.css.map */
