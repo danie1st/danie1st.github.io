@@ -1,0 +1,7 @@
+.hero {
+	padding: 50px 0;
+
+	@include break-from($breakpoint-md) {
+		padding: 80px 0;
+	}
+}

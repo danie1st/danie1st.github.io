@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-size: 10px;
+  font-size: 62.5%;
 }
 
 *, *::before, *::after {
@@ -29,6 +29,15 @@ a.btn {
   text-decoration: none;
 }
 
+.hero {
+  padding: 50px 0;
+}
+@media (min-width: 560px) {
+  .hero {
+    padding: 80px 0;
+  }
+}
+
 body {
   font: 1.4rem system-ui;
 }
@@ -36,10 +45,6 @@ body {
 .body__main {
   width: 80%;
   margin: 0 auto;
-}
-
-.hero {
-  padding: 3em 0 5em;
 }
 
 .section > :first-child {
