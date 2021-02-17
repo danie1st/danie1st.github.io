@@ -1,0 +1,24 @@
+{
+  "name": "danie1st-showcase",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "sass": "^1.32.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danie1st/danie1st.github.io.git"
+  },
+  "author": "dan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danie1st/danie1st.github.io/issues"
+  },
+  "homepage": "https://github.com/danie1st/danie1st.github.io#readme"
+}
